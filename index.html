@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- google font: poppins link  -->
+  <!-- google font: poppins link -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 
   <!-- tailwind cSS cdn link -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -41,8 +42,10 @@
     <!-- hero section start -->
     <section class="flex flex-col items-center gap-6 md:flex-row-reverse md:items-center md:mx-32">
 
-     <img src="./images/main-camera.png" alt="" class="w-52 mx-auto md:w-[440px] md:h-[440px]">
-
+     <div class="w-52 mx-auto md:w-[440px] md:h-[440px] bg-center bg-no-repeat bg-contain bg-[url('./images/c.svg')]">
+    <img src="./images/main-camera.png" alt="" class="w-full h-full object-contain">
+     </div>
+     
      <div class="flex flex-col gap-4 items-center md:items-start">
 
     <h1 class="text-[#3A3A3A] font-bold text-3xl md:text-5xl text-center md:text-left mx-5">
@@ -74,6 +77,265 @@
      </section>
     <!-- company section end -->
   </header>
-  <!-- header section end -->
+  <!-- header section end --> 
+
+
+  <!-- main section start -->
+  <main>
+
+  <!-- collection section start -->
+  <section class="grid justify-center px-4">
+  <h2 class="text-[#3A3A3A] font-semibold text-center mb-8">Popular Collection</h2>
+
+  <!-- cards div -->
+  <div class="grid gap-8 md:grid-cols-1 lg:grid-cols-3">
+
+    <!-- single card div -->
+    <div class="grid gap-5 p-4 rounded-lg shadow-[0_10px_40px_#00000026] w-80 mx-auto md:w-[600px] md:grid-cols-[300px_1fr] md:gap-8 lg:grid-cols-1 lg:w-auto lg:gap-5">
+      <img src="./images/tripod.png" alt="tripod photo" class="md:w-full md:h-full md:object-cover lg:w-auto lg:h-auto">
+      <div class="md:flex md:flex-col md:justify-center lg:block">
+        <h3 class="font-bold text-3xl">Flex Tripod</h3>
+        <h5 class="text-[#000000DE] font-bold text-3xl">$50.48</h5>
+
+        <div class="flex gap-24">
+          <div class="flex">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/semi-star.png" alt="" srcset="">
+          </div>
+          <div>
+            <p class="text-[#5E6366] font-medium">4.99</p>
+          </div>
+        </div>
+        <p class="w-48">Wordwide shifting available Buyers protection possible!</p>
+      </div>
+    </div>
+
+    <!-- single card div -->
+    <div class="grid gap-5 p-4 rounded-lg shadow-[0_10px_40px_#00000026] w-80 mx-auto md:w-[600px] md:grid-cols-[300px_1fr] md:gap-8 lg:grid-cols-1 lg:w-auto lg:gap-5">
+      <img src="./images/mic.png" alt="mic photo" class="md:w-full md:h-full md:object-cover lg:w-auto lg:h-auto">
+      <div class="md:flex md:flex-col md:justify-center lg:block">
+        <h3 class="font-bold text-3xl">microphone</h3>
+        <h5 class="text-[#000000DE] font-bold text-3xl">$120.25</h5>
+
+        <div class="flex gap-24">
+          <div class="flex">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/semi-star.png" alt="" srcset="">
+          </div>
+          <div>
+            <p class="text-[#5E6366] font-medium">4.99</p>
+          </div>
+        </div>
+        <p class="w-48">Wordwide shifting available Buyers protection possible!</p>
+      </div>
+    </div>
+
+    <!-- single card div -->
+    <div class="grid gap-5 p-4 rounded-lg shadow-[0_10px_40px_#00000026] w-80 mx-auto md:w-[600px] md:grid-cols-[300px_1fr] md:gap-8 lg:grid-cols-1 lg:w-auto lg:gap-5">
+      <img src="./images/airpod.png" alt="airpod photo" class="md:w-full md:h-full md:object-cover lg:w-auto lg:h-auto">
+      <div class="md:flex md:flex-col md:justify-center lg:block">
+        <h3 class="font-bold text-3xl">Airbuds</h3>
+        <h5 class="text-[#000000DE] font-bold text-3xl">$100.00</h5>
+
+        <div class="flex gap-24">
+          <div class="flex">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/semi-star.png" alt="" srcset="">
+          </div>
+          <div>
+            <p class="text-[#5E6366] font-medium">4.99</p>
+          </div>
+        </div>
+        <p class="w-48">Wordwide shifting available Buyers protection possible!</p>
+      </div>
+    </div>
+
+    <!-- single card div -->
+    <div class="grid gap-5 p-4 rounded-lg shadow-[0_10px_40px_#00000026] w-80 mx-auto md:w-[600px] md:grid-cols-[300px_1fr] md:gap-8 lg:grid-cols-1 lg:w-auto lg:gap-5">
+      <img src="./images/drone.png" alt="drone photo" class="md:w-full md:h-full md:object-cover lg:w-auto lg:h-auto">
+      <div class="md:flex md:flex-col md:justify-center lg:block">
+        <h3 class="font-bold text-3xl">Drone</h3>
+        <h5 class="text-[#000000DE] font-bold text-3xl">$980.25</h5>
+
+        <div class="flex gap-24">
+          <div class="flex">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/semi-star.png" alt="" srcset="">
+          </div>
+          <div>
+            <p class="text-[#5E6366] font-medium">4.99</p>
+          </div>
+        </div>
+        <p class="w-48">Wordwide shifting available Buyers protection possible!</p>
+      </div>
+    </div>
+
+    <!-- single card div -->
+    <div class="grid gap-5 p-4 rounded-lg shadow-[0_10px_40px_#00000026] w-80 mx-auto md:w-[600px] md:grid-cols-[300px_1fr] md:gap-8 lg:grid-cols-1 lg:w-auto lg:gap-5">
+      <img src="./images/lights.png" alt="lights photo" class="md:w-full md:h-full md:object-cover lg:w-auto lg:h-auto">
+      <div class="md:flex md:flex-col md:justify-center lg:block">
+        <h3 class="font-bold text-3xl">Light Setup</h3>
+        <h5 class="text-[#000000DE] font-bold text-3xl">$1200.00</h5>
+
+        <div class="flex gap-24">
+          <div class="flex">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/semi-star.png" alt="" srcset="">
+          </div>
+          <div>
+            <p class="text-[#5E6366] font-medium">4.99</p>
+          </div>
+        </div>
+        <p class="w-48">Wordwide shifting available Buyers protection possible!</p>
+      </div>
+    </div>
+
+    <!-- single card div -->
+    <div class="grid gap-5 p-4 rounded-lg shadow-[0_10px_40px_#00000026] w-80 mx-auto md:w-[600px] md:grid-cols-[300px_1fr] md:gap-8 lg:grid-cols-1 lg:w-auto lg:gap-5">
+      <img src="./images/setup.png" alt="camera setup photo" class="md:w-full md:h-full md:object-cover lg:w-auto lg:h-auto">
+      <div class="md:flex md:flex-col md:justify-center lg:block">
+        <h3 class="font-bold text-3xl">Photoshoot set</h3>
+        <h5 class="text-[#000000DE] font-bold text-3xl">$820.40</h5>
+
+        <div class="flex gap-24">
+          <div class="flex">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/semi-star.png" alt="" srcset="">
+          </div>
+          <div>
+            <p class="text-[#5E6366] font-medium">4.99</p>
+          </div>
+        </div>
+        <p class="w-48">Wordwide shifting available Buyers protection possible!</p>
+      </div>
+    </div>
+
+    <!-- single card div -->
+    <div class="grid gap-5 p-4 rounded-lg shadow-[0_10px_40px_#00000026] w-80 mx-auto md:w-[600px] md:grid-cols-[300px_1fr] md:gap-8 lg:grid-cols-1 lg:w-auto lg:gap-5">
+      <img src="./images/camera.png" alt="camera photo" class="md:w-full md:h-full md:object-cover lg:w-auto lg:h-auto">
+      <div class="md:flex md:flex-col md:justify-center lg:block">
+        <h3 class="font-bold text-3xl">Vlogging Camera</h3>
+        <h5 class="text-[#000000DE] font-bold text-3xl">$1800.80</h5>
+
+        <div class="flex gap-24">
+          <div class="flex">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/semi-star.png" alt="" srcset="">
+          </div>
+          <div>
+            <p class="text-[#5E6366] font-medium">4.99</p>
+          </div>
+        </div>
+        <p class="w-48">Wordwide shifting available Buyers protection possible!</p>
+      </div>
+    </div>
+
+    <!-- single card div -->
+    <div class="grid gap-5 p-4 rounded-lg shadow-[0_10px_40px_#00000026] w-80 mx-auto md:w-[600px] md:grid-cols-[300px_1fr] md:gap-8 lg:grid-cols-1 lg:w-auto lg:gap-5">
+      <img src="./images/single-light.png" alt="single-light photo" class="md:w-full md:h-full md:object-cover lg:w-auto lg:h-auto">
+      <div class="md:flex md:flex-col md:justify-center lg:block">
+        <h3 class="font-bold text-3xl">Green Screen</h3>
+        <h5 class="text-[#000000DE] font-bold text-3xl">$25.48</h5>
+
+        <div class="flex gap-24">
+          <div class="flex">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/semi-star.png" alt="" srcset="">
+          </div>
+          <div>
+            <p class="text-[#5E6366] font-medium">4.99</p>
+          </div>
+        </div>
+        <p class="w-48">Wordwide shifting available Buyers protection possible!</p>
+      </div>
+    </div>
+
+    <!-- single card div -->
+    <div class="grid gap-5 p-4 rounded-lg shadow-[0_10px_40px_#00000026] w-80 mx-auto md:w-[600px] md:grid-cols-[300px_1fr] md:gap-8 lg:grid-cols-1 lg:w-auto lg:gap-5">
+      <img src="./images/action.png" alt="action camera photo" class="md:w-full md:h-full md:object-cover lg:w-auto lg:h-auto">
+      <div class="md:flex md:flex-col md:justify-center lg:block">
+        <h3 class="font-bold text-3xl">Action Camera</h3>
+        <h5 class="text-[#000000DE] font-bold text-3xl">$380.00</h5>
+
+        <div class="flex gap-24">
+          <div class="flex">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/star.png" alt="" srcset="">
+            <img src="./icons/semi-star.png" alt="" srcset="">
+          </div>
+          <div>
+            <p class="text-[#5E6366] font-medium">4.99</p>
+          </div>
+        </div>
+        <p class="w-48">Wordwide shifting available Buyers protection possible!</p>
+      </div>
+    </div>
+
+  </div>
+ <div class="flex justify-end w-full py-3 mt-8">
+  <button class="flex items-center text-[#E02C6DDE] text-xl px-4 py-2 bg-gray-200 rounded">
+    <span class="mr-2">See More</span>
+    <img src="./icons/arrow-forward 1.png" alt="arrow icon" class="w-5 h-5">
+  </button>
+</div>
+
+  </section>
+  <!-- collection section end -->
+   
+
+  <!-- at one place section start -->
+<section class="my-13 mx-8 grid gap-8 lg:grid-cols-2 lg:w-[1140px] lg:gap-24 lg:ml-[20%]"> 
+  <div> 
+    <h2 class="text-[#0A0826] font-bold text-2xl mb-4 text-center">Featured products at one place</h2> 
+    <p class="text-[#6C6C6C] font-bold mb-8 text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p> 
+    
+    <button class="flex items-center bg-[#E02C6DDE] text-xl px-4 py-2 text-white mx-auto rounded"> <span class="mr-2">Join Now</span> <img src="./icons/arrow-forward 1.png" alt="arrow icon" class="w-5 h-5"> </button> </div> <img src="./images/gear.png" alt="gear photo" srcset="" class="mx-auto"> 
+  </div> 
+</section>
+  <!-- at one place section end -->
+
+  </main>
+  <!-- main section end -->
+
+
+  <!-- footer section start -->
+   <footer class="bg-[#0A0826] text-white grid gap-4 py-14 px-28">
+    <h3 class="font-bold text-center">Influencer products</h3>
+    <p class="font-bold text-[12px] text-center">Copyright © 2020  influencer products</p>
+    <p class="font-bold text-[12px] text-center">All rights reserved</p>
+
+    <div class="flex gap-2 mx-auto">
+      <img src="./social icons/Social Icons _ White _ Dribbble.png" alt="Dribbble icon" srcset="">
+      <img src="./social icons/Social Icons _ White _ Twitter.png" alt="Twitter icon" srcset="">
+      <img src="./social icons/Social Icons _ White _ Youtube.png" alt="Youtub icon" srcset="">
+    </div>
+   </footer>
+  <!-- footer section end -->
 </body>
 </html>
