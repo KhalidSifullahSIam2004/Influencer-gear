@@ -1,11 +1,79 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-  <body>
-    
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- google font: poppins link  -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- tailwind cSS cdn link -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+  <title>Influencer gear</title>
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;">
+  <!-- header section start -->
+  <header>
+
+    <!-- navbar section start -->
+    <section class="mx-4 mt-9 mb-6 flex justify-between md:mt-24 md:mb-12 md:mx-20 lg:mx-40">
+      <img src="./icons/menu 1.svg" alt="menu icon" class="cursor-pointer md:hidden">
+      <h1 class="text-[#3A3A3A] font-[700]">Influencer products</h1>
+      <img src="./icons/clarity_shopping-cart-outline-badged.svg" alt="cart icon" srcset="" class="cursor-pointer md:hidden">
+      
+      <!-- links div -->
+      <div class="hidden md:flex md:gap-8">
+        <a href="" class="text-[#3A3A3A] font-semibold">Home</a>
+        <a href="" class="text-[#3A3A3A] font-semibold">Products</a>
+        <a href="" class="text-[#3A3A3A] font-semibold">Sign up</a>
+        <a href="" class="text-[#3A3A3A] font-semibold">Log In</a>
+        <img src="./icons/akar-icons_search.png" alt="search icon" class="cursor-pointer">
+        <img src="./icons/clarity_shopping-cart-outline-badged.svg" alt="cart icon" class="cursor-pointer">
+      </div>
+      
+    </section>
+    <!-- navbar section end -->
+
+
+    <!-- hero section start -->
+    <section class="flex flex-col items-center gap-6 md:flex-row-reverse md:items-center md:mx-32">
+
+     <img src="./images/main-camera.png" alt="" class="w-52 mx-auto md:w-[440px] md:h-[440px]">
+
+     <div class="flex flex-col gap-4 items-center md:items-start">
+
+    <h1 class="text-[#3A3A3A] font-bold text-3xl md:text-5xl text-center md:text-left mx-5">
+      Start your Journey as Influencer
+    </h1>
+
+    <p class="text-[#3A3A3A] font-[500] text-center md:text-left mx-5">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.
+    </p>
+
+    <button class="text-white font-medium py-3 px-6 bg-[#E02C6D] rounded-full w-48 mx-auto md:mx-5 mt-6 cursor-pointer">
+      Preebook now →
+    </button>
+
+     </div>
+   </section>
+    <!-- hero section end -->
+
+
+    <!-- company section start -->
+     <section class="grid grid-cols-4 gap-8 justify-center mt-10 mb-25 px-10 xl:border-y xl:py-11 md:gap-16 xl:flex xl:mx-12">
+      <img src="./logos/Alibaba.svg" alt="alibaba icon">
+      <img src="./logos/Amazon.svg" alt="amazon icon">
+      <img src="./logos/Daraz.pk Logo.svg" alt="daraz icon">
+      <img src="./logos/Ebay.svg" alt="ebay icon">
+      <img src="./logos/Rakuten.svg" alt="rakuten icon" class="pl-6 md:pl-12 lg:pl-24">
+      <img src="./logos/Walmart.svg" alt="walmart icon" class="pl-6 md:pl-12 lg:pl-24">
+      <img src="./logos/Target.svg" alt="target icon" class="pl-6 md:pl-12 lg:pl-24">
+     </section>
+    <!-- company section end -->
+  </header>
+  <!-- header section end -->
+</body>
 </html>
